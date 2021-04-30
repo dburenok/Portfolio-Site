@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Portfolio - Dmitriy Burenok
+    </title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-right" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:dmitriyburenok@gmail.com">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- about me section -->
+        <section id="about">
+            <div class="row">
+                <div class="col-sm-4 col-md-3 col-lg-3 col-xl-2">
+                    <img src="img/me.jpg" alt="" class="small rounded">
+                </div>
+                <div class="col-sm-8 col-md-9 col-lg-9 col-xl-10">
+                    <div>
+                        <h1>Dmitriy Burenok</h1>
+                        <h2>Computer Science and Mathematics Undergrad @ UBC</h2>
+                        <p>Welcome to my page! Here you'll find some projects I'm working on. Email: <a href="mailto:dmitriyburenok@gmail.com">dmitriyburenok@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- project1: Scanbot -->
+        <section id="projects">
+            <!-- <h3 class="section_header">PROJECT: SCANBOT</h3> -->
+            <div class="row">
+                <div class="col-md">
+                    <img src="img/scanbot_logo.png" alt="" id="sb_logo">
+                    <div class="blurb">
+                        <p>Scanbot is an Arduino-ESP32 based 360-degree point-cloud scanner, programmed in C++. It pairs to a computer over bluetooth and performs a full 3D scan of the environment. Watch it in action!
+                        </p>
+                        <ul>
+                            <li>3D point-cloud scanner built and programmed in C++ using Arduino and Garmin LIDAR-Lite
+                            </li>
+                            <li>Java-based companion app for point-cloud visualization
+                            </li>
+                            <li>Professional enclosure design and easy-to-navigate LCD menu system
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width=100% height=300 class="embed-responsive-item" src="https://www.youtube.com/embed/-Bxh61dTs7g" allowfullscreen></iframe>
+                    </div>
+
+                    </iframe>
+                    <p class="text-center">The code for Scanbot is
+                        <a href="https://github.com/dburenok/Scanbot">available on my GitHub.
+              </a>
+                    </p>
+                </div>
+                <div class="col-md">
+                    <!-- image carousel -->
+                    <div id="sbCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#sbCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                </button>
+                            <button type="button" data-bs-target="#sbCarousel" data-bs-slide-to="1" aria-label="Slide 2">
+                </button>
+                            <!-- <button type="button" data-bs-target="#sbCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/scanbot_full2.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/scanbot_closeup2.jpg" alt="First slide">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- project2: TeleText -->
+        <section>
+            <div class="row">
+                <div class="col-md">
+                    <img src="img/teletext_logo.png" alt="" id="tt_logo">
+                    <img src="img/arc_logo.jpg" alt="" id="arc_logo">
+                    <div class="blurb">
+                        <p>&emsp;Teletext is an internal communication system developed for Atlantic Regional Council.
+                        </p>
+                        <p>The goal was to replace an existing system in order to save on cost and achieve a simplfied user interface.
+                        </p>
+                        <p>Teletext is powered by Node.js, Express.js, Passport.js, and uses MongoDB for storage. The app was tested with hundreds of users, and remains in continuous development.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <img class="d-block w-100" src="img/teletext2.png" alt="First slide">
+                </div>
+            </div>
+        </section>
+        <!-- project3: BeautySpell -->
+        <section>
+            <div class="row">
+                <div class="col-md">
+                    <img src="img/beautyspell_logo.png" alt="" id="bs_logo">
+                    <div class="blurb">
+                        <p><b>Spellchecker App</b></p>
+                        <p>&emsp;BeautySpell is a GUI Java application that performs spell-checking using an custom path-finding algorithm.
+                        </p>
+                        <p>BeautySpell makes extensive use of Object Oriented Design principles to build a flexible, persistent user program which handles, saves, and retrives custom-defined classes and objects.
+                        </p>
+                        <ul>
+                            <li>Spell-checking application utilizing custom algorithm and following OOP design principles (Java)
+                            </li>
+                            <li>Rigorous testing with JUnit 5
+                            </li>
+                            <li>Clear and systematic code documentation
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="text-center">The code for BeautySpell is
+                        <a href="https://github.com/dburenok/BeautySpell">available on my GitHub.</a>
+                    </p>
+                </div>
+                <div class="col-md">
+                    <img class="d-block w-100" src="img/beautyspell.png" alt="First slide">
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- end of container -->
+    <!-- footer -->
+    <footer class="text-muted py-5">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Back to top
+          </a>
+            </p>
+            <p class="mb-1">Thank you for visiting my page!
+            </p>
+            <p class="mb-0">Want to see some of my code? Check out
+                <a href="https://github.com/dburenok?tab=repositories">my GitHub.
+          </a>
+            </p>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js">
+    </script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

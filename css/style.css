@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar {
+  float: right;
+  padding: 0px;
+  margin: 0px;
+}
+.collapse.navbar-collapse.navbar-right {
+  padding: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(0 0 0);
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-top: 3px;
+}
+
+section {
+  background-color: white;
+  /* border-radius: 10px; */
+  padding: 50px;
+  margin-bottom: 50px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(230, 230, 230);
+}
+
+footer p {
+  color: rgb(196, 196, 196);
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.section_header {
+  background-color: rgb(236, 236, 236);
+  color: rgb(148, 148, 148);
+  text-align: center;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+#sb_logo {
+  width: 100%;
+}
+
+#sb_closeup {
+  width: 100%;
+  float: right;
+}
+
+.blurb {
+  font-size: 1.2em;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+.space {
+  margin: 10px 10px 10px 10px;
+}
+
+.top-space {
+  margin-top: 25px;
+}
+
+.small {
+  width: 100px;
+  height: 100px;
+}
+
+.full-width-img {
+  width: 100%;
+}
+
+.carousel-indicators {
+  background-color: rgb(68, 68, 68);
+}
+
+.carousel-control-prev, .carousel-control-next {
+  background-color: black;
+  width: 20px;
+  height: 50px;
+  margin-top: 50%;
+}
+
+#tt_logo {
+  width: 100%;
+  margin-top: 50px;
+}
+
+#arc_logo {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+#bs_logo {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.project-name {
+  
+  border-style: solid;
+}
