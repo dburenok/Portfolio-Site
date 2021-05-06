@@ -1,7 +1,7 @@
-import ProjectImage from './ProjectImage';
-import ProjectImageVideo from './ProjectImageVideo';
-import ProjectURL from './ProjectURL';
-import ProjectVideo from './ProjectVideo';
+import ProjectImage from './projects/ProjectImage';
+import ProjectImageVideo from './projects/ProjectImageVideo';
+import ProjectURL from './projects/ProjectURL';
+import ProjectVideo from './projects/ProjectVideo';
 
 function Projects({ projects }) {
   return (
