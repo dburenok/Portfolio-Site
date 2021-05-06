@@ -26,7 +26,7 @@ function App() {
     },
     {
       name: "Scanbot",
-      type: "imagevideo",
+      type: "video",
       logo: scanbotLogo,
       blurb: "Scanbot is a 360-degree point-cloud scanner, programmed in C++, and powered by the Arduino-ESP32. It connects to a computer using bluetooth and performs a full 3D-scan of the environment. Watch it in action!",
       image: scanbotImage,

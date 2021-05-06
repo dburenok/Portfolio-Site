@@ -5,9 +5,9 @@ function ProjectURL({ project }) {
   return (
     <div className="project">
       <ul className="projectContainer">
-        <li><img style={{ width: "600px", padding: "50px 50px 10px 50px" }} src={project.logo} alt="" /></li>
-        <li><p className="blurb" style={{ width: "600px", padding: "10px 50px 10px 50px" }}>{project.blurb}</p></li>
-        <li><a href={project.appUrl}><p className="appUrl" style={{ width: "600px", padding: "10px 50px 10px 50px" }}>UBCGradeBot.com</p></a></li>
+        <li><img style={{ width: "400px", padding: "50px 50px 10px 50px" }} src={project.logo} alt="" /></li>
+        <li><p className="blurb" style={{ width: "400px", padding: "10px 50px 10px 50px" }}>{project.blurb}</p></li>
+        <li><a href={project.appUrl}><p className="appUrl" style={{ width: "400px", padding: "10px 50px 10px 50px" }}>UBCGradeBot.com</p></a></li>
         <ul className="bottomContainer">
           <li style={style}>
             <h2 style={{ fontSize: "30px", marginBottom: "10px" }}>Technologies Used:</h2>
