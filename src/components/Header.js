@@ -7,7 +7,7 @@ function Header() {
       <div>
         <h1>Dmitriy Burenok</h1>
         <h2>Major in Computer Science and Minor in Mathematics @ UBC</h2>
-        <p>Welcome to my page! Below is a selection of my personal projects. Email: <a href="mailto:dmitriyburenok@gmail.com">dmitriyburenok@gmail.com</a> Cell:<a href="tel:778-751-5950">778-751-5950</a></p>
+        <p>Welcome to my page! Below is a selection of my personal projects. Email: <a href="mailto:dmitriyburenok@gmail.com">dmitriyburenok@gmail.com</a> Cell: <a href="tel:778-751-5950">778-751-5950</a></p>
       </div>
     </div>
   )
