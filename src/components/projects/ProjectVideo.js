@@ -2,7 +2,7 @@ import YouTube from 'react-youtube';
 
 function ProjectVideo({ project }) {
 
-  const style = { width: "300px", padding: "10px 25px 10px 25px" };
+  const style = { width: "200px", padding: "10px 25px 10px 25px" };
   const opts = {
     width: '450',
     height: '253.125',
@@ -16,9 +16,9 @@ function ProjectVideo({ project }) {
         <li style={{ padding: "0px 25px 0px 25px", borderStyle: "none" }}><YouTube videoId={project.videoUrl} opts={opts} /></li>
         <ul className="bottomContainer">
           <li style={style}>
-            <h2 style={{ fontSize: "30px", marginBottom: "10px" }}>Technologies Used:</h2>
+            <h2 className="techHeader">Technologies Used:</h2>
             {project.tech.map((item) => {
-              return <li style={{ fontSize: "24px" }}>{item}</li>
+              return <li className="tech">{item}</li>
             })}
           </li>
           {project.repoUrl &&

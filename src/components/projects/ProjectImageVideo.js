@@ -17,9 +17,9 @@ function ProjectImageVideo({ project }) {
         <li style={{ padding: "0px 25px 0px 25px", borderStyle: "none" }}><YouTube videoId={project.videoUrl} opts={opts} /></li>
         <ul className="bottomContainer">
           <li style={style}>
-            <h2 style={{ fontSize: "30px", marginBottom: "10px" }}>Technologies Used:</h2>
+            <h2 className="techHeader" >Technologies Used:</h2>
             {project.tech.map((item) => {
-              return <li style={{ fontSize: "24px" }}>{item}</li>
+              return <li className="tech">{item}</li>
             })}
           </li>
           {project.repoUrl &&

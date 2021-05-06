@@ -1,6 +1,6 @@
 function ProjectImage({ project }) {
 
-  const style = { width: "200px", padding: "10px 25px 10px 25px" }
+  const style = { width: "200px", padding: "10px 25px 10px 25px" };
 
   return (
     <div className="project">
@@ -10,9 +10,9 @@ function ProjectImage({ project }) {
         <li><img style={{ width: "400px", padding: "10px 50px 10px 50px" }} src={project.image} alt="" /></li>
         <ul className="bottomContainer">
           <li style={style}>
-            <h2 style={{ fontSize: "30px", marginBottom: "10px" }}>Technologies Used:</h2>
+            <h2 className="techHeader" >Technologies Used:</h2>
             {project.tech.map((item) => {
-              return <li style={{ fontSize: "24px" }}>{item}</li>
+              return <li className="tech">{item}</li>
             })}
           </li>
           {project.repoUrl &&

@@ -46,7 +46,7 @@ body {
 }
 
 .blurb {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .appUrl {
@@ -84,4 +84,13 @@ body {
 .socials li {
   display: inline;
   margin: 5px;
+}
+
+.tech {
+  font-size: 22px;
+}
+
+.techHeader {
+  font-size: 22px;
+  margin-bottom: 10px;
 }
