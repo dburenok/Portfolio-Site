@@ -3,7 +3,7 @@ import Socials from './Socials';
 
 function Header() {
   return (
-    <div class="about">
+    <div className="about">
       <div>
         <ul style={{ display: "flex", listStyle: "none", justifyContent: "center", alignItems: "center" }}>
           <li><img src={me} style={{ width: "80px", borderRadius: "35px" }} alt="Dmitriy Burenok" /></li>
