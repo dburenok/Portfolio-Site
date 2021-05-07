@@ -4,6 +4,10 @@ function ProjectVideo({ project, tiny }) {
 
   const style = { width: "200px", padding: "10px 25px 10px 25px" };
   const opts = {
+    width: '450',
+    height: '253.125',
+  };
+  const optsTiny = {
     width: '250',
     height: '140.625',
   };
@@ -36,7 +40,7 @@ function ProjectVideo({ project, tiny }) {
         <ul className="projectContainer">
           <li><img style={{ width: "250px", padding: "50px 25px 10px 25px" }} src={project.logo} alt="Logo" /></li>
           <li><p className="blurb" style={{ width: "250px", padding: "10px 25px 10px 25px" }}>{project.blurb}</p></li>
-          <li style={{ padding: "0px 25px 0px 25px", borderStyle: "none" }}><YouTube videoId={project.videoUrl} opts={opts} /></li>
+          <li style={{ padding: "0px 25px 0px 25px", borderStyle: "none" }}><YouTube videoId={project.videoUrl} opts={optsTiny} /></li>
           <ul className="bottomContainer">
             <li style={style}>
               <h2 className="techHeader">Tech Stack:</h2>
