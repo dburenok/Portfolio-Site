@@ -3,6 +3,10 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
+ul {
+  padding-inline-start: 5px;
+}
+
 .project {
   width: 500px;
   margin: 10px;
@@ -10,10 +14,11 @@ body {
   background-color: white;
 }
 
-.project h1 {
-  text-align: left;
-  padding: 0px 50px 0px 50px;
-  font-size: 3em;
+.projectTiny {
+  width: 300px;
+  padding: 0px;
+  margin: 10px;
+  background-color: white;
 }
 
 .projectContainer {
@@ -21,7 +26,7 @@ body {
   list-style: none;
   flex-flow: row wrap;
   padding: 0;
-}
+  }
 
 .projectContainer li {
   margin: 0;
@@ -51,6 +56,11 @@ body {
 
 .appUrl {
   font-size: 32px;
+  font-weight: bold;
+}
+
+.appUrlTiny {
+  font-size: 24px;
   font-weight: bold;
 }
 
