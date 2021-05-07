@@ -28,7 +28,7 @@ function ProjectImage({ project, tiny }) {
     return (
       <div className="projectTiny">
         <ul className="projectContainer">
-          <li><img style={{ width: "250px", padding: "10px 25px 10px 25px" }} src={project.logo} alt="Logo" /></li>
+          <li><img style={{ width: "250px", padding: "50px 25px 10px 25px" }} src={project.logo} alt="Logo" /></li>
           <li><p className="blurb" style={{ width: "250px", padding: "10px 25px 10px 25px" }}>{project.blurb}</p></li>
           <li><img style={{ width: "250px", padding: "10px 25px 10px 25px" }} src={project.image} alt="" /></li>
           <ul className="bottomContainer">
