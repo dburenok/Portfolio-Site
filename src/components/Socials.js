@@ -5,7 +5,6 @@ function Socials() {
     <ul className="socials">
       <li><SocialIcon url="https://linkedin.com/in/dburenok" /></li>
       <li><SocialIcon url="https://github.com/dburenok" /></li>
-      <li><SocialIcon url="https://facebook.com/dburenok" /></li>
       <li><SocialIcon url="mailto:dmitriyburenok@gmail.com" /></li>
     </ul>
   )
