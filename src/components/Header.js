@@ -1,13 +1,16 @@
 import me from '../img/me.jpg';
+import Socials from './Socials';
 
 function Header() {
   return (
     <div class="about">
-      <img src={me} style={{ width: "150px", borderRadius: "15px" }} alt="Dmitriy Burenok"/>
       <div>
-        <h1>Dmitriy Burenok</h1>
-        <h2>Major in Computer Science and Minor in Mathematics @ UBC</h2>
-        <p>Welcome to my page! Below is a selection of my personal projects. Email: <a href="mailto:dmitriyburenok@gmail.com">dmitriyburenok@gmail.com</a> Cell: <a href="tel:778-751-5950">778-751-5950</a></p>
+        <ul style={{ display: "flex", listStyle: "none", justifyContent: "center" }}>
+          <li><img src={me} style={{ width: "90px", borderRadius: "35px" }} alt="Dmitriy Burenok" /></li>
+          <li><h1>DMITRIY BURENOK</h1></li>
+        </ul>
+        <h2>Computer Science and Mathematics Undergrad @ UBC</h2>
+        <Socials />
       </div>
     </div>
   )
