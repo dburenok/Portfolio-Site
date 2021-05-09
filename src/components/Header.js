@@ -9,7 +9,7 @@ function Header() {
           <li><img src={me} style={{ width: "80px", borderRadius: "35px" }} alt="Dmitriy Burenok" /></li>
           <li><h1>DMITRIY BURENOK</h1></li>
         </ul>
-        <h2>Computer Science and Mathematics Undergrad @ UBC</h2>
+        <h2>Computer Science and Mathematics @ UBC</h2>
         <Socials />
       </div>
     </div>
