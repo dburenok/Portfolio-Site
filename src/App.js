@@ -31,7 +31,7 @@ function App() {
       blurb: "Scanbot is a 360-degree point-cloud scanner programmed in C++, and powered by the Arduino-ESP32.",
       image: scanbotImage,
       videoUrl: "-Bxh61dTs7g",
-      tech: ["C++", "Arduino", "ESP32 Microcontroller", "Java"],
+      tech: ["C++", "Arduino", "ESP32 MCU", "Java"],
       repoUrl: "https://github.com/dburenok/Scanbot",
     },
     {
