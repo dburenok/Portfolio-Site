@@ -22,7 +22,7 @@ function ProjectImage({ project, tiny }) {
                             </li>}
                         {!project.repoUrl &&
                             <li style={style}>
-                                <h2 style={{color: "gray"}}>Private</h2>
+                                <h2 style={{ color: "gray" }}>Private</h2>
                             </li>}
                     </ul>
                 </ul>
@@ -45,6 +45,10 @@ function ProjectImage({ project, tiny }) {
                         {project.repoUrl &&
                             <li style={style}>
                                 <a href={project.repoUrl}><h2>GitHub Repo</h2></a>
+                            </li>}
+                        {!project.repoUrl &&
+                            <li style={style}>
+                                <h2 style={{ color: "gray" }}>Private</h2>
                             </li>}
                     </ul>
                 </ul>
