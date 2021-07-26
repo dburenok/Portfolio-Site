@@ -13,6 +13,8 @@ ul {
   margin: 15px;
   padding: 10px;
   background-color: white;
+  border: 10px solid rgb(226, 226, 226);
+  border-radius: 20px;
 }
 
 .projectTiny {
@@ -28,7 +30,7 @@ ul {
   list-style: none;
   flex-flow: row wrap;
   padding: 0;
-  }
+}
 
 .projectContainer li {
   margin: 0;
@@ -50,7 +52,9 @@ ul {
   list-style: none;
   flex-flow: row wrap;
   justify-content: center;
-  background-color: rgb(23, 23, 23);
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
 }
 
 .blurb {
@@ -68,18 +72,19 @@ ul {
 }
 
 .about {
-  background-color: white;
-  color: black;
+  background-color: #f7f7f7;
+  color: rgb(0, 0, 0);
   padding: 20px;
   margin: 0px;
 }
 
 .about h1 {
   font-size: 36px;
-  font-weight: normal;
+  font-weight: bold;
   margin: 25px;
   padding: 0px;
   font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
 }
 
 .footer {
