@@ -9,7 +9,7 @@ function Header() {
           <li><img src={me} style={{ width: "80px", borderRadius: "100%" }} alt="Dmitriy Burenok" /></li>
           <li><h1>Dmitriy Burenok</h1></li>
         </ul>
-        <h2 style={{ textAlign: "center", display: "block", margin: "0 auto" }}>&#123; role: "Development Support at <a href="https://www.keywordsstudios.com/">Keywords Studios</a>",<br />major: "UBC Computer Science" &#125;</h2><br />
+        <h2 style={{ textAlign: "center", display: "block", margin: "0 auto" }}>Development Support at <a href="https://www.keywordsstudios.com/">Keywords Studios</a>,<br />UBC Computer Science</h2><br />
         <Socials />
       </div>
     </div>
