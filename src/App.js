@@ -1,8 +1,8 @@
 import scanbotImage from './img/scanbotImage.jpg';
 import scanbotLogo from './img/scanbotLogo.png';
-import teletextImage from './img/teletextImage.jpg';
+import teletextImage from './img/teletextImage.png';
 import teletextLogo from './img/teletextLogo.png';
-import beautyspellImage from './img/beautyspellImage.jpg';
+import beautyspellImage from './img/beautyspellImage.png';
 import beautyspellLogo from './img/beautyspellLogo.png';
 import ubcgradebotLogo from './img/ubcgradebotLogo.svg';
 
