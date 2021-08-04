@@ -12,8 +12,8 @@ ul {
   width: 500px;
   margin: 15px;
   padding: 10px;
-  background-color: #eaeaea;
-  /* border: 10px solid rgb(226, 226, 226); */
+  /* background-color: #eaeaea; */
+  border: 20px solid #eaeaea;
   border-radius: 40px;
 }
 
