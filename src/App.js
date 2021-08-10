@@ -38,7 +38,7 @@ function App() {
       name: "Teletext",
       type: "image",
       logo: teletextLogo,
-      blurb: "Developed a Twilio API-powered Node web-app to create a simple-to-use SMS messaging platform for Atlantic Canada Regional Council.",
+      blurb: "Developed a Twilio API-powered Node web-app to create a simple-to-use SMS messaging platform for a Canadian non-profit.",
       image: teletextImage,
       tech: ["Node", "Express", "Passport.js", "Twilio API", "MongoDB"]
     },
