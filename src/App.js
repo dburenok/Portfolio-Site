@@ -5,6 +5,7 @@ import teletextLogo from './img/teletextLogo.png';
 import beautyspellImage from './img/beautyspellImage.png';
 import beautyspellLogo from './img/beautyspellLogo.png';
 import ubcgradebotLogo from './img/ubcgradebotLogo.svg';
+import activemeetubcLogo from './img/activemeetubcLogo.svg';
 
 import './App.css';
 import './style.css';
