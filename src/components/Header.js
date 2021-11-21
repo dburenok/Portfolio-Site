@@ -4,12 +4,10 @@ import Socials from './Socials';
 function Header() {
 	return (
 		<div className="about">
-			<div>
-				<ul style={{ display: "flex", listStyle: "none", justifyContent: "center", alignItems: "center" }}>
-					<li><img src={me} style={{ width: "80px", borderRadius: "100%", boxShadow: "3px 5px 10px #b7b7b7" }} alt="Dmitriy Burenok" /></li>
-					<li><h1>Dmitriy Burenok</h1></li>
-				</ul>
-				<h2 style={{ textAlign: "center", display: "block", margin: "0 auto" }}>CS @ <a href="https://www.cs.ubc.ca">UBC</a></h2><br />
+			<div style={{ display: "flex", listStyle: "none", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+				<img src={me} style={{ width: "100px", borderRadius: "30px" }} alt="selfie" />
+				<h1>dmitriy burenok</h1>
+				<h2 style={{ textAlign: "center", display: "block", margin: "0 auto" }}>computer science @ <a href="https://www.cs.ubc.ca">ubc</a></h2><br />
 				<Socials />
 			</div>
 		</div>
