@@ -6,9 +6,9 @@ function ProjectURL({ project, tiny }) {
     return (
       <div className="project">
         <ul className="projectContainer">
-          <li><img style={{ width: "400px", padding: "50px 50px 10px 50px" }} src={project.logo} alt="" /></li>
-          <li><p className="blurb" style={{ width: "400px", padding: "10px 50px 10px 50px" }}>{project.blurb}</p></li>
-          <li><a href={project.appUrl}><p className="appUrl" style={{ width: "400px", padding: "10px 50px 10px 50px" }}>{project.name}.com</p></a></li>
+          <img style={{ width: "400px", marginTop: "30px" }} src={project.logo} alt="" />
+          <p className="blurb" style={{ width: "75%" }}>{project.blurb}</p>
+          <a href={project.appUrl}><p className="appUrl">{project.name}.com</p></a>
           <ul className="bottomContainer">
             <li style={style}>
               <h2 className="techHeader" >Tech Stack:</h2>
@@ -17,13 +17,13 @@ function ProjectURL({ project, tiny }) {
               })}
             </li>
             {project.repoUrl &&
-                            <li style={style}>
-                                <a href={project.repoUrl}><h2>GitHub Repo</h2></a>
-                            </li>}
-                        {!project.repoUrl &&
-                            <li style={style}>
-                                <h2 style={{ color: "gray" }}>Private</h2>
-                            </li>}
+              <li style={style}>
+                <a href={project.repoUrl}><h2>GitHub Repo</h2></a>
+              </li>}
+            {!project.repoUrl &&
+              <li style={style}>
+                <h2 style={{ color: "gray" }}>Private</h2>
+              </li>}
           </ul>
         </ul>
       </div>
@@ -43,13 +43,13 @@ function ProjectURL({ project, tiny }) {
               })}
             </li>
             {project.repoUrl &&
-                            <li style={style}>
-                                <a href={project.repoUrl}><h2>GitHub Repo</h2></a>
-                            </li>}
-                        {!project.repoUrl &&
-                            <li style={style}>
-                                <h2 style={{ color: "gray" }}>Private</h2>
-                            </li>}
+              <li style={style}>
+                <a href={project.repoUrl}><h2>GitHub Repo</h2></a>
+              </li>}
+            {!project.repoUrl &&
+              <li style={style}>
+                <h2 style={{ color: "gray" }}>Private</h2>
+              </li>}
           </ul>
         </ul>
       </div>

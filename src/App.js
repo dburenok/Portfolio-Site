@@ -17,10 +17,18 @@ function App() {
 
   const projects = [
     {
+      name: "ActiveMeetUBC",
+      type: "url",
+      logo: activemeetubcLogo,
+      blurb: "Social meetup application for UBC students.",
+      appUrl: "https://activemeetubc.com/",
+      tech: ["React", "AWS", "Python"],
+    },
+    {
       name: "UBCGradeBot",
       type: "url",
       logo: ubcgradebotLogo,
-      blurb: "Built and deployed a serverless web-app using AWS architecture to deliver instant summaries of historical grade distributions.",
+      blurb: "Get instant summaries of grade distributions of past UBC courses.",
       appUrl: "https://ubcgradebot.com/",
       tech: ["React", "AWS", "Python"],
       repoUrl: "https://github.com/dburenok/ubcgradebot-site",
@@ -29,25 +37,25 @@ function App() {
       name: "Scanbot",
       type: "video",
       logo: scanbotLogo,
-      blurb: "Scanbot is a 360-degree point-cloud scanner programmed in C++, and powered by the Arduino-ESP32.",
+      blurb: "Homemade 360-degree point-cloud scanner programmed with C++.",
       image: scanbotImage,
       videoUrl: "ncSoNg-iaqI",
-      tech: ["C++", "Arduino", "ESP32 MCU", "Java"],
+      tech: ["C++", "Java", "Arduino ESP32"],
       repoUrl: "https://github.com/dburenok/Scanbot",
     },
     {
       name: "Teletext",
       type: "image",
       logo: teletextLogo,
-      blurb: "Developed a Twilio API-powered Node web-app to create a simple-to-use SMS messaging platform for a Canadian non-profit.",
+      blurb: "Twilio API-powered SMS messaging platform for a Canadian non-profit.",
       image: teletextImage,
-      tech: ["Node", "Express", "Passport.js", "Twilio API", "MongoDB"]
+      tech: ["Node", "Express", "Twilio API", "MongoDB"]
     },
     {
       name: "BeautySpell",
       type: "image",
       logo: beautyspellLogo,
-      blurb: "Implemented a custom path-finding algorithm to create a GUI spell-checker in Java.",
+      blurb: "Pathfinding Java spellchecker.",
       image: beautyspellImage,
       tech: ["Java", "JUnit 5"],
       repoUrl: "https://github.com/dburenok/BeautySpell"
