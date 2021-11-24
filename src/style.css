@@ -10,6 +10,11 @@ ul {
   padding-inline-start: 5px;
 }
 
+iframe {
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
 .project {
   font-family: 'Roboto', sans-serif;
   width: 500px;
