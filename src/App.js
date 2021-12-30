@@ -16,14 +16,14 @@ import Footer from './components/Footer';
 function App() {
 
   const projects = [
-    {
-      name: "ActiveMeetUBC",
-      type: "url",
-      logo: activemeetubcLogo,
-      blurb: "Social meetup application for UBC students.",
-      appUrl: "https://activemeetubc.com/",
-      tech: ["React", "AWS", "Python"],
-    },
+    // {
+    //   name: "ActiveMeetUBC",
+    //   type: "url",
+    //   logo: activemeetubcLogo,
+    //   blurb: "Social meetup application for UBC students.",
+    //   appUrl: "https://activemeetubc.com/",
+    //   tech: ["React", "AWS", "Python"],
+    // },
     {
       name: "UBCGradeBot",
       type: "url",
