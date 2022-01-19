@@ -30,8 +30,9 @@ iframe {
   width: 300px;
   margin: 15px;
   padding: 10px;
-  border: 10px dashed #e5e5e5;
+  border: 5px dashed #e5e5e5;
   border-radius: 40px;
+  box-shadow: 0px 0px 10px #dddddd;
 }
 
 .projectContainer {
@@ -93,7 +94,7 @@ iframe {
 
 .about h1 {
   font-size: 36px;
-  margin: 25px;
+  margin: 15px;
   padding: 0px;
   text-transform: lowercase;
 }
